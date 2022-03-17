@@ -2405,7 +2405,7 @@ input[type="submit"]:hover {
   /* background-size: auto; */
   background-repeat: no-repeat;
   color: #fff;
-  opacity: 0.99;
+  /* opacity: 0.99; */
 }
 
 #main > section.two {
