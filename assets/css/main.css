@@ -2100,6 +2100,7 @@ button:hover,
   background-color: #856882;
   color: #dc9592 !important;
   font-weight: bold;
+  box-shadow: 0 0 4rem #775b74;
 }
 
 input[type="button"]:active,
