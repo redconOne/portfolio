@@ -1965,8 +1965,9 @@ form textarea {
   display: block;
   border: 0;
   outline: 0;
-  background: #fff;
-  background: rgba(255, 255, 255, 0.75);
+  background: #422e41;
+  color: #93a3ff;
+  /* background: rgba(255, 255, 255, 0.75); */
   width: 100%;
   border-radius: 0.35em;
   padding: 0.75em 1em 0.75em 1em;
@@ -1984,7 +1985,9 @@ form input[type="password"]:focus,
 form select:focus,
 form textarea:focus {
   box-shadow: 0 0 2px 1px #8ebebc;
-  background: #fff;
+  background: #422e41;
+  color: #dc9592;
+  font-weight: bold;
 }
 
 form input[type="text"],
@@ -1999,19 +2002,19 @@ form textarea {
 }
 
 form ::-webkit-input-placeholder {
-  color: #555 !important;
+  color: #dc9592 !important;
 }
 
 form :-moz-placeholder {
-  color: #555 !important;
+  color: #dc9592 !important;
 }
 
 form ::-moz-placeholder {
-  color: #555 !important;
+  color: #dc9592 !important;
 }
 
 form :-ms-input-placeholder {
-  color: #555 !important;
+  color: #dc9592 !important;
 }
 
 form ::-moz-focus-inner {
@@ -2100,7 +2103,8 @@ button:hover,
   background-color: #856882;
   color: #dc9592 !important;
   font-weight: bold;
-  box-shadow: 0 0 4rem #775b74;
+  /* box-shadow: 0 0 1rem #775b74; */
+  box-shadow: 0 0 1rem #34a99a;
 }
 
 input[type="button"]:active,
@@ -2399,8 +2403,9 @@ input[type="submit"]:hover {
 }
 
 #main > section.one {
-  background-color: #533951;
-  /* background-image: url("../../images/banner2.jpg"); */
+  background-color: #000;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("../../images/bannerPurple.jpg");
   background-position: center;
   background-size: cover;
   /* background-size: auto; */
